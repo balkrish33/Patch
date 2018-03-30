@@ -58,7 +58,7 @@ public static void main(String[] args) {
 	list.add(new Movie("nenu kori",2.6,2013));
 	
 	Collections.sort(list);
-	System.out.println("Movies after sorting : ");
+	System.out.println("Movies after sorting :: ");
 	for(Movie m:list)
 	{
 		System.out.println(m.getName() + " "+m.getRating()+ "  "+m.getYear());
